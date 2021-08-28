@@ -2,10 +2,12 @@
 VanBitCracken Random
 Here is VBCRandom in action.
 Batch file settings:
-[code]VBCRandom -t 0 -gpu -gpuId 0 -topr 8000000000000000 -subr 48 -r 480 --keyspace 8000000000000000:FFFFFFFFFFFFFFFF -o randomtest.txt 16jY7q[/code]
+```
+VBCRandom -t 0 -gpu -gpuId 0 -topr 8000000000000000 -subr 48 -r 480 --keyspace 8000000000000000:FFFFFFFFFFFFFFFF -o randomtest.txt 16jY7q
+```
 
 Results:
-'''
+```
 Started Sat Aug 28 12:32:28 2021
 Start Range  :  8000000000000000
 End   Range  :  FFFFFFFFFFFFFFFF
@@ -30,10 +32,11 @@ Random Key   :  800043E67DBAB51D
 Random Key   :  800098B29829B7A7
 Random Key   :  800045B53E8E1753
  [00:00:20 Run Time ] [Speed 79.286 MK/s] [Total Keys: 1,593,835,520] [# Rekeys: 2] [Found: 6]
- '''
+ ```
 
 Key results:
-[code]Pub Addr: 16jY7qzxujzi1K7GaEc17ZFokFymagY3jG
+```
+Pub Addr: 16jY7qzxujzi1K7GaEc17ZFokFymagY3jG
 Priv (WIF): p2pkh:KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYvLz94bU7Lw952JxZUX
 Priv (HEX): 0x000000000000000000000000000000000000000000000000800015BE8DF950C5
 
@@ -75,7 +78,8 @@ Priv (HEX): 0x000000000000000000000000000000000000000000000000800019188671357A
 
 Pub Addr: 16jY7qJ3MdatyubzBQ4e67n5D2iJRqFrDY
 Priv (WIF): p2pkh:KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYvLzZLFmMZj3v26fWhh
-Priv (HEX): 0x0000000000000000000000000000000000000000000000008000779DFF73D53B[/code]
+Priv (HEX): 0x0000000000000000000000000000000000000000000000008000779DFF73D53B
+```
 
 See how every new random key is within the same 48 bit range? Now you could change the -topr to whatever toprange and the -subr to whatever subrange. If in the example above you wanted to search every possible range in the toprange of 8000000000000000, you would use -topr 8000000000000000 and -subr 60.
 
