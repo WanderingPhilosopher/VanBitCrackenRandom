@@ -5,8 +5,8 @@ Batch file settings:
 [code]VBCRandom -t 0 -gpu -gpuId 0 -topr 8000000000000000 -subr 48 -r 480 --keyspace 8000000000000000:FFFFFFFFFFFFFFFF -o randomtest.txt 16jY7q[/code]
 
 Results:
-
-[code]Started Sat Aug 28 12:32:28 2021
+'''
+Started Sat Aug 28 12:32:28 2021
 Start Range  :  8000000000000000
 End   Range  :  FFFFFFFFFFFFFFFF
 Searching For:  16jY7q
@@ -29,7 +29,8 @@ Random Key   :  8000C2190CD91261
 Random Key   :  800043E67DBAB51D
 Random Key   :  800098B29829B7A7
 Random Key   :  800045B53E8E1753
- [00:00:20 Run Time ] [Speed 79.286 MK/s] [Total Keys: 1,593,835,520] [# Rekeys: 2] [Found: 6][/code]
+ [00:00:20 Run Time ] [Speed 79.286 MK/s] [Total Keys: 1,593,835,520] [# Rekeys: 2] [Found: 6]
+ '''
 
 Key results:
 [code]Pub Addr: 16jY7qzxujzi1K7GaEc17ZFokFymagY3jG
